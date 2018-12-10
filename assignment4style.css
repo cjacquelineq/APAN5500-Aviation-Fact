@@ -1,0 +1,115 @@
+
+#main-header{
+	background-image: url('airplane.png'); 
+	background-attachment: fixed;
+	width: 90%;
+	margin: auto;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+#main-header h1{
+	font-size: 3.5vw;
+	color: #000;
+	text-align: right;
+	padding-top: 25vw;
+}
+
+
+#main-header h3{
+	font-size: 2vw;
+	color: #000;
+	text-align: right;
+}
+
+
+#map, #fatalityyear, #lessfatality {
+	width: 75%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.title h3{
+	font-size: 2vw;
+	display: inline-block;
+	font-family: Impact, Charcoal, sans-serif;
+	color: #000;
+	text-align: center;
+	padding-top: 2vw;
+}
+
+
+#element{
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	margin: 0 10%;
+	margin-bottom: 5%;
+	grid-gap: 10px 10px;
+}
+
+
+
+.tableauPlaceholder{
+	width: 100%;
+	height: 100%;
+}
+
+h2{
+	background-image: url('cartoon_clouds.gif'); 
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 1200px 40px;
+	font-size: 3vw;
+	padding-top: 6vw;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#main-footer{
+	padding: 2%;
+	background: #333;
+	color: #fff;
+	text-align: center;
+
+}
+
+
+
+#sidebar {
+  width: 100px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  top: 70%;
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-family: Courier;
+}
+
+/* The navigation menu links */
+
+.zong{
+  padding: 3px 5px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  display: block;
+}
+
+.fen{
+  padding: 3px 5px;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+#sidebar a:hover {
+  color: #fff;
+  background-color: #333;
+
+}
